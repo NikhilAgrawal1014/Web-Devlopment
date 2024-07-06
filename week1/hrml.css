@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant - The Ultimate Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Valorant</h1>
+            <ul>
+                <li><a href="#overview">Game Overview</a></li>
+                <li><a href="#highlights">Game Highlights</a></li>
+                <li><a href="#get-started">How to Get Started</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="overview">
+            <h2>Game Overview</h2>
+            <p>Valorant is a 5v5 tactical shooter developed by Riot Games...</p>
+        </section>
+
+        <section id="highlights">
+            <h2>Game Highlights</h2>
+            <p>Here are some key highlights of Valorant...</p>
+            <div class="video-row">
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/h7MYJghRWt0?si=KB_A2DD4aEeqAsyr" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/wtJt38PhTOE?si=-Dl6m_eBKIe7Rb8R" frameborder="0" allowfullscreen></iframe>
+                </div>
+        </section>
+
+        <section id="get-started">
+            <h2>How to Get Started</h2>
+            <p>To start playing Valorant, you need to...</p>
+              <p>  <a href="https://playvalorant.com/">Official Valorant Website</a>
+            </p>
+        </section>
+
+        <section id="quiz">
+            <h2>Quiz</h2>
+            <p>Test your knowledge of Valorant!</p>
+            <button onclick="startQuiz()">Start Quiz</button>
+            <div id="quiz-content">
+                <!-- Quiz content will be dynamically added here by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Valorant Fan Site. All rights reserved.</p>
+        <p><a href="https://playvalorant.com/">Official Valorant Website</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
